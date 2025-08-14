@@ -1,0 +1,47 @@
+body {
+    background: url('./img/layout-background.png');
+    background-size: cover;
+}
+
+.container {
+    height: 200px;
+}
+
+.titulo-sombra {
+    font-size: 2.5rem;
+    color: #222;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container li {
+    background: #fff;
+    margin: 8px 0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: 0.2s ease;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+
+.container li:hover {
+    border-color:  #999;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+ul {
+  list-style-type: none; /* Remove o 'bullet point' */
+  padding: 0;
+  margin: 0;
+  display: flex; /* ESSENCIAL: Coloca os <li> lado a lado */
+  gap: 45px;     /* Cria um espaço de 20px ENTRE os itens da lista */
+  margin-bottom: 5px;
+}
+
+.link-calc {
+    color: rgb(59, 59, 59);
+}
+
+.link-calc-hex {
+    color: rgb(59, 59, 59);
+}

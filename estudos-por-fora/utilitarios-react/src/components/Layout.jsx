@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { FaCalculator, FaMoon, FaSun, FaWrench, FaRuler, FaCloudSunRain, FaClipboardCheck } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import './Layout.css'
@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 export const Layout = () => {
     const [darkMode, setDarkMode] = useState(false);
-    const [varAlert, setAlert] = useState(false);
     const ligarModoNoturno = () => setDarkMode(!darkMode);
 
     useEffect(() => {

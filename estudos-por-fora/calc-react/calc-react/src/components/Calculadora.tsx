@@ -1,3 +1,4 @@
+import { Link, Router } from 'react-router-dom';
 import './Calculadora.css'
 import React, { useState } from "react";
 
@@ -93,6 +94,7 @@ import React, { useState } from "react";
                         <button className="zero numero" onClick={() => adicionar('0')}>0</button>
                         <button className="numero" onClick={() => adicionar('.')}>.</button>
                         <button id="btn-equal" className="operador" onClick={() => calcular()}>=</button>
+                        <Link to='/CalcHex'>Calculadora Hex</Link>
                     </div>
                 </div>
             </div>
